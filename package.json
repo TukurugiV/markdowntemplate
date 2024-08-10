@@ -1,0 +1,19 @@
+{
+  "name": "markdowntemplate",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "bin": {
+    "markdowntemplate-cli": "cli.js"
+  },
+  "scripts": {
+    "cli-test": "node cli.js --param hello"
+  },
+  "dependencies": {
+    "commander": "^2.19.0",
+    "lodash": "^4.17.11",
+    "path": "^0.12.7"
+  },
+  "author": "",
+  "license": "MIT"
+}
